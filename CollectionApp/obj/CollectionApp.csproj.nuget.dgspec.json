@@ -1,0 +1,222 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionApp\\CollectionApp.csproj": {}
+  },
+  "projects": {
+    "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionApp\\CollectionApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionApp\\CollectionApp.csproj",
+        "projectName": "CollectionApp",
+        "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionApp\\CollectionApp.csproj",
+        "packagesPath": "C:\\Users\\maart\\.nuget\\packages\\",
+        "outputPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\maart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionLogic\\CollectionLogic.csproj": {
+                "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionLogic\\CollectionLogic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "Microsoft.IdentityModel.Logging": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.8, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionAssortiment\\CollectionProduct.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionAssortiment\\CollectionProduct.csproj",
+        "projectName": "CollectionProduct",
+        "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionAssortiment\\CollectionProduct.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionEntities\\CollectionEntities.csproj": {
+                "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionEntities\\CollectionEntities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionAuth\\CollectionAuth.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionAuth\\CollectionAuth.csproj",
+        "projectName": "CollectionAuth",
+        "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionAuth\\CollectionAuth.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionEntities\\CollectionEntities.csproj": {
+                "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionEntities\\CollectionEntities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionData\\CollectionData.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionData\\CollectionData.csproj",
+        "projectName": "CollectionData",
+        "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionData\\CollectionData.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionEntities\\CollectionEntities.csproj": {
+                "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionEntities\\CollectionEntities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionEntities\\CollectionEntities.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionEntities\\CollectionEntities.csproj",
+        "projectName": "CollectionEntities",
+        "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionEntities\\CollectionEntities.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionFactory\\CollectionFactory.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionFactory\\CollectionFactory.csproj",
+        "projectName": "CollectionFactory",
+        "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionFactory\\CollectionFactory.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionAssortiment\\CollectionProduct.csproj": {
+                "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionAssortiment\\CollectionProduct.csproj"
+              },
+              "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionAuth\\CollectionAuth.csproj": {
+                "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionAuth\\CollectionAuth.csproj"
+              },
+              "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionData\\CollectionData.csproj": {
+                "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionData\\CollectionData.csproj"
+              },
+              "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionEntities\\CollectionEntities.csproj": {
+                "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionEntities\\CollectionEntities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionLogic\\CollectionLogic.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionLogic\\CollectionLogic.csproj",
+        "projectName": "CollectionLogic",
+        "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionLogic\\CollectionLogic.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionEntities\\CollectionEntities.csproj": {
+                "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionEntities\\CollectionEntities.csproj"
+              },
+              "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionFactory\\CollectionFactory.csproj": {
+                "projectPath": "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionFactory\\CollectionFactory.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
