@@ -16,9 +16,9 @@ C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\bin\Debug\CollectionA
 C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\bin\Debug\CollectionEntities.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\bin\Debug\Newtonsoft.Json.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\bin\Debug\CollectionEntities.pdb
-C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\bin\Debug\System.Net.Http.Formatting.xml
 C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\obj\Debug\CollectionProduct.csprojAssemblyReference.cache
 C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\obj\Debug\CollectionProduct.csproj.CoreCompileInputs.cache
 C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\obj\Debug\CollectionProduct.csproj.CopyComplete
 C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\obj\Debug\CollectionAssortiment.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\obj\Debug\CollectionAssortiment.pdb
+C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\bin\Debug\CollectionAssortiment.dll.config

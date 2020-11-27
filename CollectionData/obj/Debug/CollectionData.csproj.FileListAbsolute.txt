@@ -38,12 +38,10 @@ C:\fontys\git\HKS-kantine\client-app\CollectionData\bin\Debug\CollectionData.pdb
 C:\fontys\git\HKS-kantine\client-app\CollectionData\bin\Debug\CollectionEntities.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionData\bin\Debug\EntityFramework.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionData\bin\Debug\EntityFramework.SqlServer.dll
-C:\fontys\git\HKS-kantine\client-app\CollectionData\bin\Debug\System.Data.SqlClient.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionData\bin\Debug\System.Security.Permissions.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionData\bin\Debug\CollectionEntities.pdb
 C:\fontys\git\HKS-kantine\client-app\CollectionData\bin\Debug\EntityFramework.xml
 C:\fontys\git\HKS-kantine\client-app\CollectionData\bin\Debug\EntityFramework.SqlServer.xml
-C:\fontys\git\HKS-kantine\client-app\CollectionData\bin\Debug\System.Data.SqlClient.xml
 C:\fontys\git\HKS-kantine\client-app\CollectionData\bin\Debug\System.Security.Permissions.xml
 C:\fontys\git\HKS-kantine\client-app\CollectionData\obj\Debug\CollectionData.csprojAssemblyReference.cache
 C:\fontys\git\HKS-kantine\client-app\CollectionData\obj\Debug\CollectionData.csproj.CoreCompileInputs.cache

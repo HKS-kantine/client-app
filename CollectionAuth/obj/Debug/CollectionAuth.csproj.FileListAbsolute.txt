@@ -24,7 +24,6 @@ C:\fontys\git\HKS-kantine\client-app\CollectionAuth\bin\Debug\CollectionEntities
 C:\fontys\git\HKS-kantine\client-app\CollectionAuth\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
 C:\fontys\git\HKS-kantine\client-app\CollectionAuth\bin\Debug\Microsoft.IdentityModel.Logging.xml
 C:\fontys\git\HKS-kantine\client-app\CollectionAuth\bin\Debug\Microsoft.IdentityModel.Tokens.xml
-C:\fontys\git\HKS-kantine\client-app\CollectionAuth\bin\Debug\Newtonsoft.Json.xml
 C:\fontys\git\HKS-kantine\client-app\CollectionAuth\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
 C:\fontys\git\HKS-kantine\client-app\CollectionAuth\obj\Debug\CollectionAuth.csprojAssemblyReference.cache
 C:\fontys\git\HKS-kantine\client-app\CollectionAuth\obj\Debug\CollectionAuth.csproj.CoreCompileInputs.cache
