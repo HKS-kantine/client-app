@@ -9,23 +9,23 @@ namespace NUnitTestLogic
 {
     class UsersControllerTest: IntegrationTest
     {
-        [Test]
-        public async Task Get_Test()
-        {
-            var response = await TestClient.GetAsync("api/user");
+        //[Test]
+        //public async Task Get_Test()
+        //{
+        //    var response = await TestClient.GetAsync("api/user");
 
-            if (response.StatusCode == HttpStatusCode.OK)
-            {
-                Assert.Pass();
-            }
+        //    if (response.StatusCode == HttpStatusCode.OK)
+        //    {
+        //        Assert.Pass();
+        //    }
 
-            Assert.Fail();
-        }
+        //    Assert.Fail();
+        //}
 
-        [Test]
-        public void Test1()
-        {
-            Assert.Pass();
-        }
+        //[Test]
+        //public void Test1()
+        //{
+        //    Assert.Pass();
+        //}
     }
 }
