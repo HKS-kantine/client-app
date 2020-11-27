@@ -152,10 +152,4 @@ C:\fontys\git\HKS-kantine\client-app\CollectionApp\bin\Debug\netcoreapp3.1\Colle
 C:\fontys\git\HKS-kantine\client-app\CollectionApp\bin\Debug\netcoreapp3.1\CollectionAuth.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionApp\bin\Debug\netcoreapp3.1\CollectionAuth.pdb
 C:\fontys\git\HKS-kantine\client-app\CollectionApp\bin\Debug\netcoreapp3.1\CollectionAssortiment.pdb
-C:\fontys\git\HKS-kantine\client-app\CollectionApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Cng.dll
-C:\fontys\git\HKS-kantine\client-app\CollectionApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Cng.dll
-C:\fontys\git\HKS-kantine\client-app\CollectionApp\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.xml
-C:\fontys\git\HKS-kantine\client-app\CollectionApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.xml
-C:\fontys\git\HKS-kantine\client-app\CollectionApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.xml
-C:\fontys\git\HKS-kantine\client-app\CollectionApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.xml
-C:\fontys\git\HKS-kantine\client-app\CollectionApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\fontys\git\HKS-kantine\client-app\CollectionApp\bin\Debug\netcoreapp3.1\CollectionAuth.dll.config

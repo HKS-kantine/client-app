@@ -110,3 +110,4 @@ C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\Newtonsoft.Json.d
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionAuth.pdb
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionAssortiment.pdb
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\Newtonsoft.Json.xml
+C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionAuth.dll.config

@@ -70,3 +70,4 @@ C:\fontys\git\HKS-kantine\client-app\CollectionFactory\bin\Debug\System.Identity
 C:\fontys\git\HKS-kantine\client-app\CollectionFactory\bin\Debug\Microsoft.IdentityModel.Tokens.xml
 C:\fontys\git\HKS-kantine\client-app\CollectionFactory\bin\Debug\Microsoft.IdentityModel.Logging.xml
 C:\fontys\git\HKS-kantine\client-app\CollectionFactory\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\fontys\git\HKS-kantine\client-app\CollectionFactory\bin\Debug\CollectionAuth.dll.config

@@ -11,6 +11,13 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CollectionApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionApp", "CollectionApp.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CollectionAssortiment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionAssortiment", "CollectionProduct.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CollectionAuth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionAuth", "CollectionAuth.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CollectionData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionData", "CollectionData.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CollectionEntities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionEntities", "CollectionEntities.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CollectionFactory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionFactory", "CollectionFactory.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CollectionLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\fontys\\git\\HKS-kantine\\client-app\\CollectionLogic", "CollectionLogic.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NUnitTestLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
