@@ -1,0 +1,67 @@
+<div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="min-height: 300px; background-image: url(assets/img/hks/banner4.jpg); background-size: cover; background-position: center top;">
+  <!-- Mask -->
+  <span class="mask bg-gradient-danger opacity-8"></span>
+  <!-- Header container -->
+  <div class="container-fluid d-flex align-items-center">
+    <div class="row">
+      <div class="col-lg-7 col-md-10" *ngIf="user">
+        <h1 class="display-2 text-white">Hello {{user.FirstName}}</h1>
+        <p class="text-white mt-0 mb-5">This is your profile page. You can see the progress you've made with your work and manage your projects or assigned tasks</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid mt--7">
+      <div class="card card-profile shadow h-100">
+
+        <div class="card-header">
+          <div class="row">
+            <div class="col-auto">
+              <h3 class="mb-0">Turven</h3>
+            </div>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="table align-items-center ">
+            <thead class="thead-light">
+            <tr>
+              <th scope="col">Gebruiker</th>
+              <th scope="col"></th>
+              <th scope="col"></th>
+            </tr>
+            </thead>
+            <tbody *ngIf="users">
+            <tr *ngFor="let user of users">
+              <th scope="row">
+                <div class="media align-items-center">
+                  <a href="javascript:void(0)" class="avatar rounded-circle mr-3">
+                    <img alt="Image placeholder" src="assets/img/theme/{{user.profilePicture}}">
+                  </a>
+                  <div class="media-body">
+                    <span class="mb-0 text-sm">{{user.firstName}} {{user.lastName}}</span>
+                  </div>
+                </div>
+              </th>
+              <td class="text-right d-none d-lg-block">
+                <div class="btn-group" *ngIf="user.lastOrder">
+                  <button class="btn btn-primary" (click)="changeAmount(user, -1)"><i class="fa fa-minus"></i></button>
+                  <div class="btn m-0 py-0 px-2">
+                  <a href="javascript:void(0)" class="">
+                    <img class="avatar rounded-circle mr-3" alt="Image placeholder" [src]="user.lastOrder.product.image">
+                    <span>{{user.lastOrder.amount}}</span>
+                  </a>
+                  </div>
+                  <button class="btn btn-primary" (click)="changeAmount(user)"><i class="fa fa-plus"></i></button>
+                </div>
+              </td>
+              <td class="text-right">
+                <a routerLink="1/bestelling" placement="top" ngbTooltip="Bewerk bestelling" class="btn btn-primary"><i class="fa fa-th-list"></i></a>
+                <button placement="top" ngbTooltip="Afrekenen" class="btn btn-outline-primary float-right"><i class="fa fa-comments-dollar"></i></button>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+</div>

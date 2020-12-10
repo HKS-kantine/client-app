@@ -36,3 +36,7 @@ C:\fontys\git\HKS-kantine\client-app\CollectionAuth\bin\Debug\Microsoft.Identity
 C:\fontys\git\HKS-kantine\client-app\CollectionAuth\bin\Debug\Newtonsoft.Json.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionAuth\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionAuth\bin\Debug\CollectionAuth.dll.config
+C:\fontys\git\HKS-kantine\client-app\CollectionAuth\bin\Debug\EntityFramework.dll
+C:\fontys\git\HKS-kantine\client-app\CollectionAuth\bin\Debug\EntityFramework.SqlServer.dll
+C:\fontys\git\HKS-kantine\client-app\CollectionAuth\bin\Debug\EntityFramework.xml
+C:\fontys\git\HKS-kantine\client-app\CollectionAuth\bin\Debug\EntityFramework.SqlServer.xml
