@@ -15,18 +15,26 @@ namespace CollectionLogic.Entities
 
         public OrderListEntity OrderListDTOToOrderList(OrderListDTO orderList)
         {
-            OrderListEntity newOrderList = new OrderListEntity()
+            if (orderList.Id != null)
             {
-                Id = orderList.Id,
-                Orders = new List<OrderEntity>(),
-            };
+                OrderListEntity newOrderList = new OrderListEntity()
+                {
+                    Id = orderList.Id,
+                    Orders = new List<OrderEntity>(),
+                    User = new UserEntitiy()
+                };
+                if (orderList.Orders != null)
+                {
+                    foreach (OrderDTO order in orderList.Orders)
+                    {
+                        Entities.OrderEntity Order = new OrderEntity().OrderDTOToOrder(order);
+                        newOrderList.Orders.Add(Order);
+                    }
+                }
 
-            foreach (OrderDTO order in orderList.Orders)
-            {
-                Entities.OrderEntity Order = new OrderEntity().OrderDTOToOrder(order);
-                newOrderList.Orders.Add(Order);
+                return newOrderList;
             }
-            return newOrderList;
+            return new OrderListEntity();
         }
 
         public OrderListDTO OrderToOrderDTO()

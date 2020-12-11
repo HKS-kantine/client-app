@@ -5,4 +5,5 @@ export class Order {
   name?: string;
   amount: string;
   product: Product;
+  orderList?: number;
 }

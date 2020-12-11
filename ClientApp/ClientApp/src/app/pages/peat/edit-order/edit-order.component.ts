@@ -41,7 +41,8 @@ export class EditOrderComponent implements OnInit {
 
       const order: Order = {
         product: product,
-        amount: product.amount
+        amount: product.amount,
+        orderList: 1
       };
       console.log(order);
       if (product.orderId) {

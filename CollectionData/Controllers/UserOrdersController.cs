@@ -36,12 +36,12 @@ namespace CollectionData.Controllers
 
         public List<OrderListDTO> ReadAll()
         {
-            return db.OrderLists.ToList();
+            return db.OrderLists.Include(b => b.Orders).ToList();
         }
 
         public OrderListDTO ReadOne(int id)
         {
-            return db.OrderLists.SingleOrDefault(o => o.Id == id);
+            return db.OrderLists.Include(b => b.Orders).SingleOrDefault(o => o.Id == id); ;
         }
 
         public bool Update(OrderListDTO company)

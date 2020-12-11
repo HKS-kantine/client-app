@@ -49,13 +49,13 @@ namespace CollectionApp.Controllers
         [HttpPost]
         public async void Post([FromBody] OrderEntity order)
         {
-            if(order.Id != null)
+            if(order.Id == 0)
             {
-               orderLogic.Update(order);
+                orderLogic.Create(order);
             }
             else
             {
-                orderLogic.Create(order);
+                orderLogic.Update(order);
             }
             await notificationController.GetAsync("user", 1);
         }

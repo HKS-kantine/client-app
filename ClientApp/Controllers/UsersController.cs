@@ -16,9 +16,7 @@ namespace CollectionApp.Controllers
         private readonly User user = new User();
         public string Get()
         {
-            return "test";
-
-            //return JsonSerializer.Serialize(user.Read());
+            return JsonSerializer.Serialize(user.Read());
         }
     }
 }
