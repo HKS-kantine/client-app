@@ -19,11 +19,11 @@ namespace CollectionLogic
         private static AuthDto auth;
 
         private bool _loggedIn = false;
-        public UserEntitiy Login()
+        public UserEntitiy Login(LoginEntity loginParam)
         {
-            if (_AuthDal.Login().Result != null)
+            if (_AuthDal.Login(loginParam.Username, loginParam.Password).Result != null)
             {
-                auth = _AuthDal.Login().Result;
+                auth = _AuthDal.Login(loginParam.Username, loginParam.Password).Result;
                 return new UserEntitiy().UserDTOToUser(GetLoggedInUser());
             }
             return null;

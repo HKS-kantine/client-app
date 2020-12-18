@@ -36,12 +36,26 @@ namespace CollectionApp.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            UserEntitiy user = cont.Login();
+            LoginEntity login = new LoginEntity() { Username = "maarten.jakobs@gmail.com", Password = "sonu@123" };
+            UserEntitiy user = cont.Login(login);
             if (user != null)
             {
                 //await notificationController.GetAsync("user", user.Id);
                 return Ok(user);
             }
+            return Unauthorized(new { message = "Username or password is incorrect" });
+        }
+
+        [HttpPost]
+        public IActionResult Authenticate([FromBody] LoginEntity loginParam)
+        {
+            UserEntitiy user = cont.Login(loginParam);
+            if (user != null)
+            {
+                //await notificationController.GetAsync("user", user.Id);
+                return Ok(user);
+            }
+
             return Unauthorized(new { message = "Username or password is incorrect" });
         }
     }

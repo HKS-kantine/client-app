@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c985497a-73f0-4773-9fa1-649df744cd6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.vs/CollectionApp/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/CollectionApp/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/CollectionApp/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/CollectionApp/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/CollectionApp/v16/TestStore/0/000.testlog" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/CollectionApp/v16/TestStore/0/000.testlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionAssortiment/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionAssortiment/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionAssortiment/bin/Debug/CollectionEntities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionAssortiment/bin/Debug/CollectionEntities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionAssortiment/bin/Debug/CollectionEntities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionAssortiment/bin/Debug/CollectionEntities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionAssortiment/obj/Debug/CollectionProduct.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionAssortiment/obj/Debug/CollectionProduct.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionAuth/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionAuth/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionAuth/bin/Debug/CollectionAuth.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionAuth/bin/Debug/CollectionAuth.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionAuth/bin/Debug/CollectionAuth.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionAuth/bin/Debug/CollectionAuth.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionAuth/bin/Debug/CollectionEntities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionAuth/bin/Debug/CollectionEntities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionAuth/bin/Debug/CollectionEntities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionAuth/bin/Debug/CollectionEntities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionAuth/obj/Debug/CollectionAuth.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionAuth/obj/Debug/CollectionAuth.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionAuth/obj/Debug/CollectionAuth.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionAuth/obj/Debug/CollectionAuth.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionAuth/obj/Debug/CollectionAuth.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionAuth/obj/Debug/CollectionAuth.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionData/bin/Debug/CollectionEntities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionData/bin/Debug/CollectionEntities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionData/bin/Debug/CollectionEntities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionData/bin/Debug/CollectionEntities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionData/obj/Debug/CollectionData.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionData/obj/Debug/CollectionData.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionEntities/IAuth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionEntities/IAuth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionEntities/bin/Debug/CollectionEntities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionEntities/bin/Debug/CollectionEntities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionEntities/bin/Debug/CollectionEntities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionEntities/bin/Debug/CollectionEntities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionEntities/obj/Debug/CollectionEntities.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionEntities/obj/Debug/CollectionEntities.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionEntities/obj/Debug/CollectionEntities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionEntities/obj/Debug/CollectionEntities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionEntities/obj/Debug/CollectionEntities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionEntities/obj/Debug/CollectionEntities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFactory/bin/Debug/CollectionAuth.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionFactory/bin/Debug/CollectionAuth.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFactory/bin/Debug/CollectionAuth.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionFactory/bin/Debug/CollectionAuth.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFactory/bin/Debug/CollectionEntities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionFactory/bin/Debug/CollectionEntities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFactory/bin/Debug/CollectionEntities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionFactory/bin/Debug/CollectionEntities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionFactory/obj/Debug/CollectionFactory.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionFactory/obj/Debug/CollectionFactory.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLogic/Auth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLogic/Auth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLogic/CollectionLogic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLogic/CollectionLogic.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLogic/bin/Debug/CollectionAuth.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLogic/bin/Debug/CollectionAuth.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLogic/bin/Debug/CollectionAuth.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLogic/bin/Debug/CollectionAuth.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLogic/bin/Debug/CollectionEntities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLogic/bin/Debug/CollectionEntities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLogic/bin/Debug/CollectionEntities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLogic/bin/Debug/CollectionEntities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLogic/bin/Debug/CollectionLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLogic/bin/Debug/CollectionLogic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLogic/bin/Debug/CollectionLogic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLogic/bin/Debug/CollectionLogic.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLogic/obj/Debug/CollectionLogic.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLogic/obj/Debug/CollectionLogic.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLogic/obj/Debug/CollectionLogic.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLogic/obj/Debug/CollectionLogic.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLogic/obj/Debug/CollectionLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLogic/obj/Debug/CollectionLogic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLogic/obj/Debug/CollectionLogic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLogic/obj/Debug/CollectionLogic.pdb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lpbeyBXShCNUtyN2b2VvEgY4KG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c985497a-73f0-4773-9fa1-649df744cd6b" name="Default Changelist" comment="" />
+      <created>1608297080208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608297080208</updated>
+      <workItem from="1608297081461" duration="111000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
