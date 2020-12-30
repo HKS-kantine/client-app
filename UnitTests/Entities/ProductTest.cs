@@ -7,10 +7,10 @@ namespace UnitTests.Entities
 {
     public class ProductEntity
     {
-        private int Id = 1;
-        private string Name = "Bier";
-        float Price = 12;
-        private string Image = null;
+        private readonly int Id = 1;
+        private readonly string Name = "Bier";
+        readonly float Price = 12;
+        private readonly string Image = null;
 
         public ProductDTO productDto;
 

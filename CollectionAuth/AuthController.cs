@@ -13,7 +13,6 @@ namespace CollectionAuth
         private readonly Uri devUrl = new Uri("https://localhost:44365");
         private readonly Uri prodUrl =new Uri("https://431901-authentication-service.azurewebsites.net");
 
-        private const string RequestUri = "https://localhost:44380/api/product";
         private static readonly HttpClient client = new HttpClient()
         {
             BaseAddress = new Uri("https://431901-authentication-service.azurewebsites.net")
@@ -25,7 +24,7 @@ namespace CollectionAuth
             //client.DefaultRequestHeaders.Accept.Add(
             //    new MediaTypeWithQualityHeaderValue("application/json")
             //);
-            HttpResponseMessage response = await client.PostAsync("/api/user", new StringContent(JsonConvert.SerializeObject(new { Username = User, Password = Password }),
+            HttpResponseMessage response = await client.PostAsync("/api/user", new StringContent(JsonConvert.SerializeObject(new { Username = User, Password }),
                                 Encoding.UTF8, "application/json"));
 
             response.EnsureSuccessStatusCode();
@@ -36,9 +35,6 @@ namespace CollectionAuth
             {
                 return null;
             }
-
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var paresedToken = tokenHandler.ReadJwtToken(accessToken.auth_token);
 
             return accessToken;
         }

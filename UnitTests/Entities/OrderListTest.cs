@@ -9,7 +9,7 @@ namespace UnitTests.Entities
 {
     public class OrderList
     {
-        private int Id = 1;
+        private readonly int Id = 1;
         private readonly List<OrderDTO> OrderDtos = new List<OrderDTO>();
         private readonly List<CollectionLogic.Entities.OrderEntity> Orders = new List<CollectionLogic.Entities.OrderEntity>();
 

@@ -9,9 +9,9 @@ namespace UnitTests.Entities
 {
     public class OrderEntity
     {
-        int Id = 1;
+        readonly int Id = 1;
         ProductDTO Product = null;
-        int Amount = 5;
+        readonly int Amount = 5;
 
         public OrderDTO orderDto;
         public CollectionLogic.Entities.OrderEntity orderEntity;
