@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 using CollectionLogic;
+using CollectionLogic.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,9 +15,9 @@ namespace CollectionApp.Controllers
     public class UsersController : ControllerBase
     {
         private readonly User user = new User();
-        public string Get()
+        public List<UserEntitiy> Get()
         {
-            return JsonSerializer.Serialize(user.Read());
+            return  user.ReadAll();
         }
     }
 }

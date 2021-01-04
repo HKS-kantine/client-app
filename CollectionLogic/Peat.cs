@@ -29,8 +29,6 @@ namespace CollectionLogic
                     LastName = user.LastName,
                     Email = user.Email,
                     ProfilePicture = user.ProfilePicture,
-                    OrderList = activeOrderList,
-                    LastOrder = activeOrderList.Orders.Last()
                 });
             }
 
