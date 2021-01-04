@@ -10,11 +10,11 @@ namespace UnitTests.Entities
     public class OrderList
     {
         private readonly int Id = 1;
-        private readonly List<OrderDTO> OrderDtos = new List<OrderDTO>();
-        private readonly List<CollectionLogic.Entities.OrderEntity> Orders = new List<CollectionLogic.Entities.OrderEntity>();
+        private readonly List<OrderDTO> _orderDtos = new List<OrderDTO>();
+        private readonly List<CollectionLogic.Entities.OrderEntity> _orders = new List<CollectionLogic.Entities.OrderEntity>();
 
-        private OrderListDTO orderListDto;
-        private OrderListEntity orderListEntity;
+        private OrderListDTO _orderListDto;
+        private OrderListEntity _orderListEntity;
 
         [SetUp]
         public void Setup()
@@ -25,21 +25,21 @@ namespace UnitTests.Entities
             user.Setup();
             order.Setup();
 
-            OrderDtos.Add(order.orderDto);
-            Orders.Add(order.orderEntity);
+            _orderDtos.Add(order.orderDto);
+            _orders.Add(order.orderEntity);
 
 
-            orderListDto = new OrderListDTO()
+            _orderListDto = new OrderListDTO()
             {
                 Id = this.Id,
-                Orders = OrderDtos,
+                Orders = _orderDtos,
                 User = null
             };
 
-            orderListEntity = new CollectionLogic.Entities.OrderListEntity()
+            _orderListEntity = new OrderListEntity()
             {
                 Id = this.Id,
-                Orders = Orders,
+                Orders = _orders,
                 User = null
 
             };
@@ -48,7 +48,7 @@ namespace UnitTests.Entities
         [Test]
         public void Test1()
         {
-            CollectionLogic.Entities.OrderListEntity orderList = new CollectionLogic.Entities.OrderListEntity().OrderListDTOToOrderList(orderListDto);
+            OrderListEntity orderList = new OrderListEntity().OrderListDTOToOrderList(_orderListDto);
             if (orderList.Id == this.Id)
             {
                 Assert.Pass();
@@ -59,7 +59,7 @@ namespace UnitTests.Entities
         [Test]
         public void Test2()
         {
-            OrderListDTO orderList = orderListEntity.OrderToOrderDTO();
+            OrderListDTO orderList = _orderListEntity.OrderToOrderDTO();
             if (orderList.Id == this.Id)
             {
                 Assert.Pass();
