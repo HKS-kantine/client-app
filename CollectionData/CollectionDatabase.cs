@@ -14,7 +14,7 @@ namespace CollectionData
         // 
         // If you wish to target a different database and/or database provider, modify the 'Database' 
         // connection string in the application configuration file.
-        private const string connectionString = "Server=(localdb)\\mssqllocaldb; Database=CollectionDatabase; Integrated Security=SSPI; MultipleActiveResultSets=true;";
+        private const string connectionString = "Server=(localdb)\\mssqllocaldb; Database=CantineDatabase; Integrated Security=SSPI; MultipleActiveResultSets=true;";
         private const string connectionStringDocker = "Server=db-server; Database=CollectionDatabase; User Id=sa;Password=G4sLOj7P; MultipleActiveResultSets=true;";
         public CollectionDatabase(): base(connectionString)
         {
@@ -28,7 +28,7 @@ namespace CollectionData
         public virtual DbSet<UserDTO> Users { get; set; }
         public virtual DbSet<OrderListDTO> OrderLists { get; set; }
         public virtual DbSet<ItemDTO> Items { get; set; }
-
+        public virtual DbSet<ProductDTO> Products { get; set; }
 
 
     }

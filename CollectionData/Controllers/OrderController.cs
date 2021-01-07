@@ -49,7 +49,7 @@ namespace CollectionData.Controllers
             if (result != null)
             {
                 result.Amount = order.Amount;
-                result.Name = order.Name;
+                result.ProductId = order.ProductId;
 
                 db.SaveChanges();
                 return true;

@@ -21,7 +21,7 @@ namespace CollectionLogic.Entities
             {
                 Id = order.Id,
                 Amount = order.Amount,
-                Product = new ProductEntity().ProductDTOToProduct(_ProductDal.ReadOneAsync(Convert.ToInt32(order.Name)).Result)
+                Product = new ProductEntity().ProductDTOToProduct(_ProductDal.ReadOneAsync(order.ProductId).Result)
             };
         }
         public OrderDTO OrderToOrderDTO()
@@ -29,7 +29,7 @@ namespace CollectionLogic.Entities
             return new OrderDTO()
             {
                 Id = this.Id,
-                Name = this.Product.Id.ToString(),
+                ProductId = this.Product.Id,
                 Amount = this.Amount
             };
         }

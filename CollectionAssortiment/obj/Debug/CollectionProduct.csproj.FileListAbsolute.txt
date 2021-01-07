@@ -11,6 +11,7 @@ C:\fontys\git\CantineCollection\backend\CollectionAssortiment\bin\Debug\Newtonso
 C:\fontys\git\CantineCollection\backend\CollectionAssortiment\bin\Debug\System.Net.Http.Formatting.dll
 C:\fontys\git\CantineCollection\backend\CollectionAssortiment\bin\Debug\Newtonsoft.Json.xml
 C:\fontys\git\CantineCollection\backend\CollectionAssortiment\bin\Debug\System.Net.Http.Formatting.xml
+C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\bin\Debug\CollectionAssortiment.dll.config
 C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\bin\Debug\CollectionAssortiment.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\bin\Debug\CollectionAssortiment.pdb
 C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\bin\Debug\CollectionEntities.dll
@@ -21,4 +22,3 @@ C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\obj\Debug\CollectionP
 C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\obj\Debug\CollectionProduct.csproj.CopyComplete
 C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\obj\Debug\CollectionAssortiment.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\obj\Debug\CollectionAssortiment.pdb
-C:\fontys\git\HKS-kantine\client-app\CollectionAssortiment\bin\Debug\CollectionAssortiment.dll.config

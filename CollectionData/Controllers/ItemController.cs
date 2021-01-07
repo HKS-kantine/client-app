@@ -25,7 +25,7 @@ namespace CollectionData.Controllers
         {
             //throw new NotImplementedException();
             var query = from b in db.Orders
-                        orderby b.Name
+                        orderby b.ProductId
                         select b;
 
             List<ItemDTO> items = db.Items.ToList();

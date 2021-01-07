@@ -71,7 +71,10 @@ C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\Microsoft.Identit
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\Microsoft.IdentityModel.Logging.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\Microsoft.IdentityModel.Tokens.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionAuth.dll
+C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionAssortiment.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionData.dll
+C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\Newtonsoft.Json.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\EntityFramework.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionEntities.pdb
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionFactory.pdb
@@ -80,6 +83,10 @@ C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\Microsoft.Identit
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\Microsoft.IdentityModel.Logging.xml
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\Microsoft.IdentityModel.Tokens.xml
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionAuth.pdb
+C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionAuth.dll.config
+C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionAssortiment.pdb
+C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionAssortiment.dll.config
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionData.pdb
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionData.dll.config
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\EntityFramework.xml
@@ -88,10 +95,3 @@ C:\fontys\git\HKS-kantine\client-app\CollectionLogic\obj\Debug\CollectionLogic.c
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\obj\Debug\CollectionLogic.csproj.CopyComplete
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\obj\Debug\CollectionLogic.dll
 C:\fontys\git\HKS-kantine\client-app\CollectionLogic\obj\Debug\CollectionLogic.pdb
-C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionAuth.dll
-C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionAssortiment.dll
-C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\Newtonsoft.Json.dll
-C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionAuth.pdb
-C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionAssortiment.pdb
-C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionAuth.dll.config
-C:\fontys\git\HKS-kantine\client-app\CollectionLogic\bin\Debug\CollectionAssortiment.dll.config

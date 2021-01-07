@@ -26,7 +26,7 @@ namespace UnitTests.Entities
             orderDto = new OrderDTO()
             {
                 Id = this.Id,
-                Name = Product.Id.ToString(),
+                ProductId = Product.Id,
                 Amount = this.Amount,
             };
 
