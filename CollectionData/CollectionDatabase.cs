@@ -15,8 +15,8 @@ namespace CollectionData
         // If you wish to target a different database and/or database provider, modify the 'Database' 
         // connection string in the application configuration file.
         private const string connectionString = "Server=(localdb)\\mssqllocaldb; Database=CantineDatabase; Integrated Security=SSPI; MultipleActiveResultSets=true;";
-        private const string connectionStringDocker = "Server=db-server; Database=CollectionDatabase; User Id=sa;Password=G4sLOj7P; MultipleActiveResultSets=true;";
-        public CollectionDatabase(): base(connectionString)
+        private const string connectionStringProd = "Data Source=85.214.165.15;Initial Catalog=MaartenDB;Persist Security Info=True;User ID=Maarten;Password=Maarten";
+        public CollectionDatabase(): base(connectionStringProd)
         {
 
         }
