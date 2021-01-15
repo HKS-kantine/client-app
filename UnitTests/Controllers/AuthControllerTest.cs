@@ -1,4 +1,5 @@
-﻿using CollectionApp.Controllers;
+﻿using System.Net;
+using CollectionApp.Controllers;
 using CollectionLogic.Entities;
 using Microsoft.AspNetCore.Mvc;
 using NUnit.Framework;
@@ -21,9 +22,35 @@ namespace UnitTests.Controllers
         }
 
         [Test]
-        public void Test1()
+        public void CA_AC_01__auth_wrong_username()
         {
+            _login.Username = null;
+            if (_auth.Authenticate(_login) is OkObjectResult)
+            {
+                Assert.Fail("was authenticated");
+            }
             Assert.Pass();
+        }
+
+        [Test]
+        public void CA_AC_02__auth_wrong_password()
+        {
+            _login.Password = null;
+            if (_auth.Authenticate(_login) is OkObjectResult)
+            {
+                Assert.Fail("was authenticated");
+            }
+            Assert.Pass();
+        }
+
+        [Test]
+        public void CA_AC_03__auth_loggedin()
+        {
+            if (_auth.Authenticate(_login) is OkObjectResult)
+            {
+                Assert.Pass();
+            }
+            Assert.Fail("was not authenticated");
         }
     }
 }

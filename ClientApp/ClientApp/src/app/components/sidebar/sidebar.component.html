@@ -109,19 +109,6 @@
           </a>
         </li>
       </ul>
-
-      <hr class="my-3">
-      <!-- Heading -->
-      <h6 class="navbar-heading text-muted">Admin</h6>
-      <!-- Navigation -->
-      <ul class="navbar-nav mb-md-3">
-        <li *ngFor="let adminItem of menuAdminItems" class="{{adminItem.class}} nav-item">
-          <a routerLinkActive="active" [routerLink]="[adminItem.path]" class="nav-link">
-            <i class="ni {{adminItem.icon}}"></i>
-            {{adminItem.title}}
-          </a>
-        </li>
-      </ul>
     </div>
   </div>
 </nav>
